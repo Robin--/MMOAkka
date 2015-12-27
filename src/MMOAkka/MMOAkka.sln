@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMOAkka.Core", "MMOAkka.Core\MMOAkka.Core.csproj", "{3602C8E6-EDF8-4A25-95BA-91F4687E39C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMOAkka.Api", "MMOAkka.Api\MMOAkka.Api.csproj", "{560DA92F-594F-44D2-84B0-2A5CC20DA798}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5DB1B8EE-2981-404A-866C-F6651FF5484F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMOAkka.Tests", "..\..\test\MMOAkka\MMOAkka.Tests\MMOAkka.Tests.csproj", "{01827E4C-2437-4AC4-9F00-A0AB24C7C5DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3602C8E6-EDF8-4A25-95BA-91F4687E39C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3602C8E6-EDF8-4A25-95BA-91F4687E39C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3602C8E6-EDF8-4A25-95BA-91F4687E39C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3602C8E6-EDF8-4A25-95BA-91F4687E39C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560DA92F-594F-44D2-84B0-2A5CC20DA798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560DA92F-594F-44D2-84B0-2A5CC20DA798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560DA92F-594F-44D2-84B0-2A5CC20DA798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560DA92F-594F-44D2-84B0-2A5CC20DA798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01827E4C-2437-4AC4-9F00-A0AB24C7C5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01827E4C-2437-4AC4-9F00-A0AB24C7C5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01827E4C-2437-4AC4-9F00-A0AB24C7C5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01827E4C-2437-4AC4-9F00-A0AB24C7C5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01827E4C-2437-4AC4-9F00-A0AB24C7C5DA} = {5DB1B8EE-2981-404A-866C-F6651FF5484F}
+	EndGlobalSection
+EndGlobal
